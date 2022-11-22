@@ -13,6 +13,7 @@ class PageTwo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Color(0xffC6D9FF),
         body: Stack(
